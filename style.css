@@ -1,0 +1,47 @@
+img{
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid red;
+}
+
+body{
+    background-color: rgb(26, 27, 27);
+    margin: 0;
+    color: white;
+}
+
+h1{
+    color: rgba(192, 0, 39, 0.916);
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+li{
+    margin: 10px 10px;
+    transition: 0.5s;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+li:hover{
+    transform: scale(1.2);
+    background-color: white;
+    color: rgb(26, 27, 27);
+}
+
+a{
+    color: white;
+}
+
+p{
+    margin: 10px;
+}
